@@ -16,7 +16,7 @@ The effect are...
                   
  Controls...
  
-  To shift between the 3 different effects, press c/C
-  To shift between the 14 Blend Modes effects, press b/B OR mousePressed
+  To shift between the 3 different effects, press c/C -
+  To shift between the 14 Blend Modes effects, press b/B OR mousePressed - 
   To save an image, press s/S
               
