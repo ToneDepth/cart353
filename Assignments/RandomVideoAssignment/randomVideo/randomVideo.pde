@@ -47,12 +47,12 @@ void draw() {
       noise.pixels[posX+posY*width] = color(bright);
 
       //Creates the area that will display the gaussian effect.
-      float space = abs(randomGaussian() * gaussianRange);
+      float gaussianArea = abs(randomGaussian() * gaussianRange);
       //Creates a perlin noise effect linked to the gaussian space
       size = noise(offX, offY) * 10;
 
       //Condition that checks if the a pixel is within range of the mouse established by the gaussianRange
-      if (dist (posX, posY, mouseX, mouseY) < space) {
+      if (dist (posX, posY, mouseX, mouseY) < gaussianArea) {
         float r = red(video.pixels[loc]);
         float g = green(video.pixels[loc]);
         float b = blue(video.pixels[loc]);     
